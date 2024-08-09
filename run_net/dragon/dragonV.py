@@ -32,8 +32,6 @@ POSE_2D_JOINT_NAME_LIST = [
         'RSmallToe_x', 'RSmallToe_y', 
         'RHeel_x', 'RHeel_y'
 ]
-def get_sliding_window(input_list, window_size):
-    return [input_list[i:i + window_size] for i in range(len(input_list) - window_size + 1)]
 
 def add_number(a:int, b:int) -> int:
     return a+b
